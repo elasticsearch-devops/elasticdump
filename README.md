@@ -22,13 +22,13 @@ elasticdump \
   --output=hdfs:///data/logs-2020.11.24.json \
   --type=data
   --limit=10000
-``
+```
 
 ## download es mapping example
 ```
 elasticdump \
   --input=http://zhenxin.fun:9200/logs-2020.11.24 \
-  --output=hdfs:///data/logs-2020.11.24.json \
+  --output=hdfs:///mapping/logs-2020.11.24.json \
   --type=mapping
   --limit=10000
 ```
