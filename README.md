@@ -13,6 +13,8 @@ sudo yum clean all
 
 如果存在多个 nodesoucre，执行以下命令删除，然后重新执行第一第二步：
 sudo rm -fv /etc/yum.repos.d/nodesource*
+
+npm install elasticdump -g
 ```
 
 ## download es data example
